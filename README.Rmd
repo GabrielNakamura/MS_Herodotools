@@ -1,9 +1,22 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 <!-- <img src="man/figures/Logo_FishPhyloMaker.png" alt="fish logo" width="200px" align="right"/> -->
 
 # Herodotools: an R package for Historical Biogeography analysis
+
 
 <!-- [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/FishPhyloMaker)](https://cran.r-project.org/package=FishPhyloMaker) -->
 
@@ -13,18 +26,19 @@
 
 # Background
 
-`{Herodotools}` is an R package to perform analysis of Historical
-Biogeography. It present functions used in previous publications and
-some new functions.
+`{Herodotools}` is an R package to perform analysis of Historical Biogeography. It present functions used in
+    previous publications and some new functions. 
+
 
 # Next steps
 
-  - [x] Beta version of package with all functions
+- [x] Beta version of package with all functions
 
-  - [ ] Example data with Akodon species
+- [ ] Example data with Akodon species
 
-  - [ ] Documentation using pckdown
+- [ ] Documentation using pckdown
 
-  - [ ] plot function to represent trait dynamics in space
+- [ ] plot function to represent trait dynamics in space
 
-  - [ ] CRAN release
+- [ ] CRAN release
+
